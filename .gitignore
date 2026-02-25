@@ -1,0 +1,22 @@
+# --- Python Environment ---
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# --- Project Specific (Temporary Data) ---
+# Hum nahi chahte ki test data ya audit reports GitHub pe jayein
+source_data.csv
+audit_report.csv
+*.log
+
+# --- Streamlit & IDE ---
+.streamlit/
+.vscode/
+.idea/
+.DS_Store
+
+# --- OS Specific ---
+Thumbs.db
+desktop.ini
